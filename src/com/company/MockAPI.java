@@ -3,13 +3,13 @@ package com.company;
 public class MockAPI implements MockInterface{
 
     @Override
-    public int createBuyOrder() {
-        return 0;
+    public void createBuyOrder() {
+        System.out.println("Bot buy");
     }
 
     @Override
-    public int createSellOrder() {
-        return 0;
+    public void createSellOrder() {
+        System.out.println("Bot sell");
     }
 
     @Override
